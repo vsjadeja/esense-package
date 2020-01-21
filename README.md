@@ -1,5 +1,5 @@
 # esense-package
 
-[![Latest Version](https://img.shields.io/github/release/vsjadeja/esense-package.svg?style=flat-square)](https://github.com/vsjadeja/esense-package/releases)
+[![Total Downloads](https://img.shields.io/packagist/dt/esense/package.svg?style=flat-square)](https://packagist.org/packages/esense/package)
 
 ## Package module for TOPScorer.
