@@ -15,5 +15,12 @@
         "psr-4": {
             "Esense\\Package\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Esense\\Package\\PackageServiceProvider"
+            ]
+        }
     }
 }
