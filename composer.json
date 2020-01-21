@@ -1,0 +1,19 @@
+{
+    "name": "esense/package",
+    "description": "Package module for TOPScorer.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Virendra Jadeja",
+            "email": "virendrajadeja84@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Esense\\Package\\": "src/"
+        }
+    }
+}
