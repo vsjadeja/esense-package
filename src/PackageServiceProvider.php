@@ -25,7 +25,9 @@ class PackageServiceProvider extends ServiceProvider {
         $this->loadViewsFrom(__DIR__ . '/views', 'package');
         $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
 
-        $this->publishes([__DIR__.'/views', resource_path('views/esense/package'),]);
+        $this->publishes([
+            __DIR__.'/views' => resource_path('views/esense/package'),
+        ]);
     }
 
 }
